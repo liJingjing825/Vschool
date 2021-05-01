@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:id="@+id/mainEditText1"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/mainEditText1"
+		android:id="@+id/mainEditText2"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/mainEditText2"
+		android:id="@+id/mainEditText3"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/mainEditText3"
+		android:id="@+id/mainEditText4"/>
+
+	<ImageView
+		android:src="@android:drawable/ic_delete"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/mainEditText4"
+		android:id="@+id/mainImageView1"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Button"
+		android:layout_below="@id/mainImageView1"
+		android:id="@+id/mainButton1"/>
+
+</RelativeLayout>
+

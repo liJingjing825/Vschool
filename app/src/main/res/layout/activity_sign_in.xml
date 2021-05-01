@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a50388.vschool.main.homepage.sign.sign_inActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+
+            style="@style/top_nav"
+            android:layout_marginBottom="60dp">
+
+                <ImageView
+                android:id="@+id/signhomereturn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="true"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/return_ico"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="签到"
+                android:textSize="20dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/build"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="创建教室"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorButten"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/getinto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进入教室"
+            android:layout_margin="30dp"
+            android:background="@color/colorButten"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

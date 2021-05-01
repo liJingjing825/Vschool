@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorxml"
+    tools:context="com.example.a50388.vschool.repairbean.reportrepairsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+
+            style="@style/top_nav">
+            <ImageView
+                android:id="@+id/reportrepairshomereturn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/return_ico"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="报修"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/infor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="查看分析"
+                android:visibility="gone"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginRight="10dp"></TextView>
+            <TextView
+                android:id="@+id/myinfor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="我的报修"
+                android:visibility="gone"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginRight="10dp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/class3"
+            android:gravity="center_vertical|left"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:scrollbars="vertical"
+                android:layout_marginLeft="25dp"
+                android:text="查看范围     "
+                android:layout_alignParentRight="true"
+                android:textSize="20sp"
+                />
+            <Spinner
+            android:id="@+id/localspin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            >
+        </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reportrefragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="484dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/plussign"
+            android:layout_width="74dp"
+            android:layout_height="77dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/timg2">
+
+        </ImageView>
+    </LinearLayout>
+</RelativeLayout>

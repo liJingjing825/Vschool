@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorxml"
+    tools:context="com.example.a50388.vschool.main.homepage.studentguide.studentguideActivity">
+    <LinearLayout
+        android:id="@+id/studentguide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            style="@style/top_nav">
+            <ImageView
+                android:id="@+id/studentguidereturn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/return_ico"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="学生指引"
+                android:textSize="20dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sgfragment"
+        android:layout_below="@id/studentguide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sgfragmentbutton"
+        android:orientation="vertical"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/sgfragmentbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/newstudentg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="新生指路"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorButten"/>
+        <Button
+            android:id="@+id/oldstudentg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="师生寻路"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorButten"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

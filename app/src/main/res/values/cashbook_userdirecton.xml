@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cashbook">
+        <item>全部</item>
+        <item>饮食</item>
+        <item>服装美容</item>
+        <item>生活日用</item>
+        <item>住房缴费</item>
+        <item>交通出行</item>
+        <item>通讯物流</item>
+        <item>文教娱乐</item>
+        <item>健康</item>
+        <item>理财</item>
+        <item>保险</item>
+        <item>借还款</item>
+        <item>人情往来</item>
+        <item>公益</item>
+        <item>小买卖</item>
+        <item>酬劳</item>
+        <item>工资奖金</item>
+        <item>其他</item>
+    </string-array>
+</resources>
+

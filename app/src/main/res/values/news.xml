@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="news">
+        <item>全部</item>
+        <item>社团活动</item>
+        <item>报告讲座</item>
+        <item>院系新闻</item>
+    </string-array>
+</resources>

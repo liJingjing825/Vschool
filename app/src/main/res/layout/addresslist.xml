@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="79dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        android:text="coe"
+        android:textColor="@color/text1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tv_phone2"
+        android:gravity="center_vertical|left"
+        android:text="学号:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_phone2"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tv_name"
+        android:gravity="center_vertical|left"
+        android:text="学号:"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@+id/tv_name"
+        android:layout_alignStart="@+id/tv_phone"
+        android:gravity="center_vertical|left"
+        android:text="电话:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_id2"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@+id/tv_name"
+        android:layout_toEndOf="@+id/tv_name"
+        android:gravity="center_vertical|left"
+        android:text="电话:"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/tv_Image"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/tv_Image2"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/tv_Image2"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true" />
+
+</RelativeLayout>

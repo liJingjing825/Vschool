@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.a50388.vschool.main.homepage.sign.signclassActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        style="@style/top_nav">
+        <ImageView
+            android:id="@+id/coursereturn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/return_ico"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="课程表"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <TextView
+            android:id="@+id/test_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/courseTableText"
+            android:text="节\周"
+
+            />
+
+        <TextView
+            android:id="@+id/test_monday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/courseTableText"
+            android:text="周一"
+            android:layout_toRightOf="@id/test_empty"
+            android:paddingLeft="15dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/test_tuesday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周二"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_monday_course"
+            android:paddingLeft="15dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/test_wednesday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周三"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_tuesday_course"
+            android:paddingLeft="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/test_thursday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周四"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_wednesday_course"
+            android:paddingLeft="15dp"
+            />
+
+
+        <TextView
+            android:id="@+id/test_friday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周五"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_thursday_course"
+            android:paddingLeft="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/test_saturday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周六"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_friday_course"
+            android:paddingLeft="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/test_sunday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/courseTableText"
+            android:text="周日"
+            android:layout_toRightOf="@id/test_saturday_course"
+            android:paddingLeft="15dp"
+
+            />
+
+        <ScrollView
+            android:id="@+id/scroll_body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/test_empty"
+            android:scrollbars="none"
+            >
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/test_course_rl"
+                >
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

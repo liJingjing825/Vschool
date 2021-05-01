@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">V school</string>
+    <string name="title_activity_cashbook">cashbookActivity</string>
+    <string name="serverid">123.207.145.214</string>
+</resources>
